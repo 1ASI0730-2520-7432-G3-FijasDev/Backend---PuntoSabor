@@ -25,4 +25,17 @@
         <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.11.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="authh\Application\Internal\CommandServices\" />
+      <Folder Include="authh\Application\Internal\OutboundServices\" />
+      <Folder Include="authh\Application\Internal\QueryServices\" />
+      <Folder Include="authh\Infrastructure\Hashing\ByCrypt\Services\" />
+      <Folder Include="authh\Infrastructure\Persistence\EFC\Configuration\Extensions\" />
+      <Folder Include="authh\Infrastructure\Persistence\Repositories\" />
+      <Folder Include="authh\Infrastructure\Token\JWT\Configuration\" />
+      <Folder Include="authh\Infrastructure\Token\JWT\Services\" />
+      <Folder Include="authh\Interfaces\REST\Resources\" />
+      <Folder Include="authh\Interfaces\REST\Transform\" />
+    </ItemGroup>
+
 </Project>
